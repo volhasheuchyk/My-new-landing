@@ -1,0 +1,48 @@
+.footer-text {
+    width: 370px;
+    margin: auto;
+
+}
+footer {
+    padding: 24px 0;
+    background-color: #2C3154;
+    
+}
+.footer-text-item {
+    text-align: center;
+    text-align: center;
+            line-height: 21px;
+            font-size: $_18px;
+            color: #808080;
+            font-weight: 400;
+            font-family: 'Raleway', sans-serif;
+}
+
+
+
+.footer-text-item a {
+    color: $white;
+}
+
+.footer-text-item a:hover {
+    color: $pink;
+}
+
+@media (max-width: 1024px) {
+    .footer-text-item {
+        font-size: $_14px;
+    }
+    .footer-text {
+        width: 314px;
+    }
+
+}
+@media (max-width: 612px) {
+    .footer-text-item
+    {
+        font-size: $_14px;
+    }
+    .footer-text {
+        width: 280px;
+    }
+}

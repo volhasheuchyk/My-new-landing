@@ -1,0 +1,100 @@
+.main-title, .main-subtitle, .more {
+    margin: auto;
+}
+.main-title, .main-subtitle-text, .more a {
+    text-align: center;
+}
+.more {
+
+    width: 369px;
+}
+.more a {
+    display: block;
+    line-height: 77px;
+    background-color: $pink;
+    font-size: $_24px;
+    color: $white;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 79px;
+}
+
+
+.main-title {
+    margin-top: 130px;
+    line-height: 75px;
+    font-size: $_64px;
+    color: $white;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.main-subtitle {
+    margin-top: 31px;
+}
+.main-subtitle-text {
+    
+    line-height: 28px;
+    font-size: $_24px;
+    color: $white;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+.more a:hover {
+    
+    background-color: $pink2;
+    transform: scale(1.1);
+    
+}
+
+@media (max-width: 1024px) {
+    .main-title {
+    
+        line-height: 56px;
+        font-size: $_48px;
+        
+    }
+
+    .main-subtitle-text {
+    
+        line-height: 21px;
+        font-size: $_18px;
+            
+    
+    }
+    .more {
+        width: 313px;
+    }  
+
+
+}
+
+@media (max-width: 612px) {
+    .main-title {
+    
+        line-height: 42px;
+        font-size: $_36px;
+        margin-top: 70px;
+        
+    }
+
+    .main-subtitle-text {
+    
+        line-height: 16px;
+        font-size: $_14px;
+            
+    
+    }
+    .more {
+        width: 279px;
+    }  
+    .more a {
+        line-height: 60px;
+    }
+
+
+}

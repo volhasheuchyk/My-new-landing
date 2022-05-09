@@ -1,0 +1,147 @@
+.person-img img {
+    width: 255px;
+    height: 255px;
+}
+.card-person {
+    width: 255px;
+    margin: 0 15px 50px;
+}
+.social-media a {
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+    
+    border: 1px solid #C6CBCD;
+    color: #C6CBCD;
+    
+    
+    
+}
+.social-media {
+    display: flex;
+    width: 117px;
+    justify-content: space-between;
+}
+
+.fa-twitter {
+    margin: 0 6px 0;
+}
+
+.section-person {
+    padding: 114px 0;   
+}
+
+
+
+
+.wrap-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+.name-person {
+    line-height: 28px;
+            font-size: $_24px;
+            color: $grey2;
+            font-weight: 700;
+            font-family: 'Raleway', sans-serif;
+            margin-top: 30px;
+}
+
+.about-person {
+    line-height: 21px;
+            font-size: $_18px;
+            color: $pink;
+            font-weight: 400;
+            font-family: 'Raleway', sans-serif;
+            
+}
+
+.person-text-item {
+    line-height: 21px;
+            font-size: $_18px;
+            color: $grey;
+            font-weight: 400;
+            font-family: 'Raleway', sans-serif;
+            margin-top: 18px;
+}
+
+.person-text-text {
+    margin-bottom: 38px;
+}
+
+@media (max-width: 1024px) {
+    .section-person {
+        padding: 78px 0;   
+    }
+    .person-img img {
+        width: 210px;
+        height: 210px;
+    }
+    .card-person {
+        width: 210px;
+        margin: 0 15px 50px;
+    }
+
+    .name-person {
+        line-height: 21px;
+                font-size: $_18px;
+                
+    }
+    
+    .about-person {
+        line-height: 16px;
+                font-size: $_14px;
+                
+                
+    }
+    
+    .person-text-item {
+        line-height: 16px;
+                font-size: $_14px;
+                
+    }
+    .section-person {
+        padding: 78px 0;   
+    }
+    
+}
+
+
+
+@media (max-width: 612px) {
+    .section-person {
+        padding: 35px 0;   
+    }
+    .person-img img {
+        width: 210px;
+        height: 210px;
+    }
+    .card-person {
+        width: 210px;
+        margin: 0 15px 50px;
+    }
+
+    
+                
+    
+    .section-person {
+        padding: 34px 0;   
+    }
+}
+
+.person-img img:hover {
+    transform: scale(1.1);
+}
+
+.social-media a:hover {
+    
+    
+    border: 1px solid $pink;
+    color: $pink;
+    
+    
+    
+}
